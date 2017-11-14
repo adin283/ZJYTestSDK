@@ -7,12 +7,19 @@
 //
 
 #import "ZJYAppDelegate.h"
+#import "ZJYTestSDK.h"
 
 @implementation ZJYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSDictionary *config = @{@"Hekr" : @{
+                                     @"AppId" : @"01282585673"
+                                     }
+                             };
+    [[ZJYTestSDK sharedInstance] hekrConfig:config launchOptions:launchOptions];
+    [[ZJYTestSDK sharedInstance] loginWithUsername:@"test@zhujia360.com" password:@"test"];
     return YES;
 }
 

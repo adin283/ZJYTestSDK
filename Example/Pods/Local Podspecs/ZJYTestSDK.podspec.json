@@ -1,0 +1,27 @@
+{
+  "name": "ZJYTestSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ZJYTestSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/adin283/ZJYTestSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "adin283": "zhuwenbo@zhujia360.com"
+  },
+  "source": {
+    "git": "https://github.com/adin283/ZJYTestSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZJYTestSDK/Classes/**/*",
+  "dependencies": {
+    "HekrTestSDK": [
+
+    ]
+  }
+}

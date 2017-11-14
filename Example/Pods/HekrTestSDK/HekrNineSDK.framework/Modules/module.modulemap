@@ -1,0 +1,6 @@
+framework module HekrNineSDK {
+  umbrella header "HekrNineSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SHAlertViewBlocks {
+  umbrella header "SHAlertViewBlocks-umbrella.h"
+
+  export *
+  module * { export * }
+}
